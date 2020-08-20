@@ -5,7 +5,7 @@ let colors = [color1, color2];
 
 let body = document.getElementById("gradient");
 
-function setGradient() {
+const setGradient = () => {
     body.style.background =
         "linear-gradient(to right, "
         + colors[0].value
@@ -13,7 +13,7 @@ function setGradient() {
         + colors[1].value
         + ")";
     h3.textContent = body.style.background + ";";
-}
+};
 
 for (let color of colors) {
     color.addEventListener("input", setGradient);
