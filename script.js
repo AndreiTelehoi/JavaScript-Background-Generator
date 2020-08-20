@@ -19,4 +19,16 @@ for (let color of colors) {
     color.addEventListener("input", setGradient);
 }
 
+//just some random stuff for github purposes
+//just some random stuff for github purposes
+//just some random stuff for github purposes
+//just some random stuff for github purposes
+//just some random stuff for github purposes
+//just some random stuff for github purposes
+//just some random stuff for github purposes
+//just some random stuff for github purposes
+//just some random stuff for github purposes
+//just some random stuff for github purposes
+//just some random stuff for github purposes
+
 
