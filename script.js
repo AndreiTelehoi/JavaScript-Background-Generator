@@ -4,7 +4,7 @@ let color2 = document.querySelector(".color2");
 let colors = [color1, color2];
 let body = document.getElementById("gradient");
 
-colors.forEach((color) => {
+colors.forEach(color => {
     color.addEventListener("input", () => {
         body.style.background =
             "linear-gradient(to right, "
